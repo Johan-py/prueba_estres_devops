@@ -47,7 +47,7 @@ export default function RootLayout({
               <SidebarItem label="Perfil" />
             </nav>
           </aside>
-          
+
           {/* Main Feed Column */}
           <main className="flex-1 flex justify-center py-4 overflow-x-hidden">
             <div className="w-full max-w-[500px]">{children}</div>

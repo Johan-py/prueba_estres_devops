@@ -7,6 +7,7 @@ Bienvenido a **SOCIAL_IS**, un ecosistema de red social de alto nivel gestionado
 ## 🚀 Vision General
 
 ### Características Clave:
+
 - **Monorepo con Bun Workspaces**: Gestión unificada de dependencias y scripts globales para Backend, Frontend y Laboratorio de Estrés.
 - **Expert UI/UX**: Diseño de 3 columnas inspirado en las plataformas líderes mundiales.
 - **DevOps Command Center**: Scripts centralizados en `/scripts` para caos, estrés y simulaciones.
@@ -21,17 +22,22 @@ Bienvenido a **SOCIAL_IS**, un ecosistema de red social de alto nivel gestionado
 ## 📥 Configuración Rápida (Monorepo)
 
 ### 1. Requisitos Previos
+
 - [Bun](https://bun.sh/)
 - [Docker](https://www.docker.com/)
 
 ### 2. Instalación Global
+
 Desde la raíz del proyecto, instala todas las dependencias de todos los paquetes:
+
 ```bash
 bun install
 ```
 
 ### 3. Base de Datos
+
 Levanta el contenedor y prepara Prisma desde la raíz:
+
 ```bash
 docker-compose up -d
 bun run prisma:generate
@@ -40,11 +46,15 @@ bun run prisma:seed
 ```
 
 ### 4. Lanzamiento de Servicios
+
 Inicia todo el ecosistema con un solo comando:
+
 ```bash
 bun run dev:all
 ```
+
 O de forma individual:
+
 - `bun run dev:back`
 - `bun run dev:front`
 - `bun run dev:lab`
@@ -53,11 +63,11 @@ O de forma individual:
 
 Este proyecto centraliza sus herramientas de ingeniería en la raíz para un control total:
 
-| Script | Propósito | Comando |
-| --- | --- | --- |
-| `stress-test.js` | Prueba de carga masiva | `bun run lab:stress` |
-| `chaos_devs.sh` | Inyección de fallos | `bun run lab:chaos` |
-| `dev_simulator.sh` | Simulador de tráfico | `sh scripts/dev_simulator.sh` |
+| Script             | Propósito              | Comando                       |
+| ------------------ | ---------------------- | ----------------------------- |
+| `stress-test.js`   | Prueba de carga masiva | `bun run lab:stress`          |
+| `chaos_devs.sh`    | Inyección de fallos    | `bun run lab:chaos`           |
+| `dev_simulator.sh` | Simulador de tráfico   | `sh scripts/dev_simulator.sh` |
 
 ## 🏗️ Estructura del Ecosistema
 
@@ -73,4 +83,5 @@ social_is/
 ```
 
 ---
+
 **Desarrollado con ❤️ por el Equipo de Expertos DevOps SOCIAL_IS** 🚀

@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="w-full">
       {/* Stories - Premium Visualization */}
-      <Stories /> 
+      <Stories />
 
       {/* Decorative Separator or Gap */}
       <div className="h-6" />

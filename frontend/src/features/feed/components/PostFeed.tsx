@@ -39,7 +39,6 @@ export const PostFeed = () => {
 
   return (
     <section className="flex flex-col space-y-3 w-full max-w-2xl mx-auto">
-      
       {/* Git Practice Box */}
       <div className="bg-blue-600/10 border border-blue-500/20 rounded-lg p-3">
         <h4 className="text-blue-400 font-bold text-sm mb-1 flex items-center gap-2">
@@ -50,7 +49,10 @@ export const PostFeed = () => {
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/100/svg"
           >
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
             />
           </svg>
@@ -69,29 +71,18 @@ export const PostFeed = () => {
         >
           {/* Sidebar votos */}
           <div className="flex flex-col items-center bg-neutral-950 px-2 py-3 text-neutral-500 min-w-[40px]">
-            
             {/* Upvote */}
             <button className="hover:text-orange-500">
-              <svg
-                className="w-4 h-4"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 4l-8 8h16z" />
               </svg>
             </button>
 
-            <span className="text-xs font-bold my-1">
-              {Math.floor(Math.random() * 2000)}
-            </span>
+            <span className="text-xs font-bold my-1">{Math.floor(Math.random() * 2000)}</span>
 
             {/* Downvote */}
             <button className="hover:text-blue-500">
-              <svg
-                className="w-4 h-4"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 20l8-8H4z" />
               </svg>
             </button>
@@ -99,30 +90,18 @@ export const PostFeed = () => {
 
           {/* Contenido */}
           <div className="flex-1 p-3">
-            
             {/* Header */}
             <div className="flex items-center justify-between mb-1">
               <div className="flex items-center gap-2 text-xs text-neutral-400">
-                <img
-                  src={post.avatar}
-                  alt="avatar"
-                  className="w-6 h-6 rounded-full"
-                />
-                <span className="text-white font-semibold">
-                  u/{post.username}
-                </span>
+                <img src={post.avatar} alt="avatar" className="w-6 h-6 rounded-full" />
+                <span className="text-white font-semibold">u/{post.username}</span>
                 <span>•</span>
                 <span>{post.time}</span>
               </div>
 
               {/* menú */}
               <button className="hover:text-white text-neutral-500">
-                <svg
-                  className="w-4 h-4"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <circle cx="12" cy="12" r="1" />
                   <circle cx="19" cy="12" r="1" />
                   <circle cx="5" cy="12" r="1" />
@@ -131,9 +110,7 @@ export const PostFeed = () => {
             </div>
 
             {/* contenido */}
-            <p className="text-sm text-neutral-200 mb-2 leading-snug">
-              {post.content}
-            </p>
+            <p className="text-sm text-neutral-200 mb-2 leading-snug">{post.content}</p>
 
             {/* tags */}
             <div className="flex flex-wrap gap-2 mb-2">
@@ -162,15 +139,10 @@ export const PostFeed = () => {
                 💬 {Math.floor(Math.random() * 100)}
               </button>
 
-              <button className="hover:text-white flex items-center gap-1">
-                🔁 Compartir
-              </button>
+              <button className="hover:text-white flex items-center gap-1">🔁 Compartir</button>
 
-              <button className="hover:text-white flex items-center gap-1">
-                ⭐ Guardar
-              </button>
+              <button className="hover:text-white flex items-center gap-1">⭐ Guardar</button>
             </div>
-
           </div>
         </div>
       ))}
