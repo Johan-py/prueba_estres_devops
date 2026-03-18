@@ -1,0 +1,3 @@
+http://localhost:3000/api/calculator?a=10&b=5&op=add
+http://localhost:3000/api/calculator?a=20&b=2&op=divide
+http://localhost:3000/api/calculator?a=10&b=0&op=divide

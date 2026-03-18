@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  # Entorno de Testing (Puerto 3000)
+  api-testing:
+    build: .
+    container_name: entorno-testing-pro
+    ports:
+      - "3000:3000"
+    restart: always
+
+  # Entorno de Staging (Puerto 3001)
+  api-staging:
+    build: .
+    container_name: entorno-staging-pro
+    ports:
+      - "3001:3000"
+    restart: always
