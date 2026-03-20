@@ -34,5 +34,15 @@
     "time": "Hace un momento",
     "tags": ["#Bytemafia", "#IS", "#GitFlow"]
   }
+,
+  {
+      "id": 1005,
+      "username": "Bytemafia_Giovani",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=GiovaniDevMafia",
+      "content": "Logre ingresar a la rama Bytemafia 🚀",
+      "time": "Hace un momento",
+      "tags": ["#Bytemafia", "#Dev", "#DevOpsCore"]
+  }
+
 ]
 
