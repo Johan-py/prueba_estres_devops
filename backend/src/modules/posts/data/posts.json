@@ -27,7 +27,7 @@
     "tags": ["#SigmaDevelopers", "#GitPractice", "#DevOps", "#Learning"]
   },
   {
-    "id": 1021,
+    "id": 1041,
     "username": "teamCebollitas_MelodyGutierrez",
     "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=neida",
     "content": "¡Hola! Soy Melody del grupo TeamCebollitas. Estoy aprendiendo Git colaborativo y esta es mi primera contribución 🚀",
@@ -36,7 +36,7 @@
     "tags": ["#TeamCebollitas", "#GitPractice", "#DevOps", "#Learning"]
   },
   {
-    "id": 1022,
+    "id": 1042,
     "username": "teamCebollitas_RodrigoQuispeVargas",
     "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=neida",
     "content": "¡Hola! Soy Rodrigo Quispe Vargas del grupo TeamCebollitas. Estoy aprendiendo Git colaborativo y esta es mi primera contribución 🚀",
@@ -45,7 +45,7 @@
     "tags": ["#TeamCebollitas", "#GitPractice", "#DevOps", "#Learning"]
   },
   {
-    "id": 1023,
+    "id": 1043,
     "username": "teamCebollitas_VladimirCamachoCabrera",
     "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=cebollita",
     "content": "¡Hola! Soy Vladimir Camacho Cabrera del grupo TeamCebollitas. Estoy aprendiendo Git colaborativo y esta es mi primera contribución 🚀",
@@ -54,7 +54,7 @@
     "tags": ["#TeamCebollitas", "#GitPractice", "#DevOps", "#Learning"]
   },
   {
-    "id": 1024,
+    "id": 1044,
     "username": "teamCebollitas_CarlosMangudo",
     "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=cebollita",
     "content": "¡Hola! Soy Carlos Mangudo del grupo TeamCebollitas. Estoy aprendiendo Git colaborativo y esta es mi primera contribución 🚀",
@@ -63,12 +63,22 @@
     "tags": ["#TeamCebollitas", "#GitPractice", "#DevOps", "#Learning"]
   },
   {
-    "id": 1028,
+    "id": 1045,
     "username": "teamCebollitas_JosePardo",
     "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=cebollita",
     "content": "¡Hola! Soy Jose Pardo del grupo TeamCebollitas. Estoy aprendiendo Git colaborativo y esta es mi primera contribución 🚀",
     "image": "https://worldcampus.saintleo.edu/img/article/estudiar-ingenieria-en-sistemas-cuales-son-los-retos-de-ser-ingenierio-en-sistemas.webp" ,
     "time": "Hace 1 minuto",
     "tags": ["#TeamCebollitas", "#GitPractice", "#DevOps", "#Learning"]
+  },
+  {
+    "id": 1046,
+    "username": "teamCebollitas_ManuelTellez",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=cebollita",
+    "content": "¡Hola! Soy Manuel Tellez del grupo TeamCebollitas. Estoy aprendiendo Git colaborativo y esta es mi primera contribución 🚀",
+    "image": "https://worldcampus.saintleo.edu/img/article/estudiar-ingenieria-en-sistemas-cuales-son-los-retos-de-ser-ingenierio-en-sistemas.webp" ,
+    "time": "Hace 1 minuto",
+    "tags": ["#TeamCebollitas", "#GitPractice", "#DevOps", "#Learning"]
   }
+
 ]
