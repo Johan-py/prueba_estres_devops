@@ -34,5 +34,14 @@
     "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2070&auto=format&fit=crop",
     "time": "Hace 1 minuto",
     "tags": ["#LaComarcaIS", "#GitPractice", "#DevOps"]
+  },
+  {
+    "id": 1042,
+    "username": "JhonatanDavidQuispePerez",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=JhonatanDavidQuispePerez",
+    "content": "¡Hola! Soy Jhonatan David Quispe Perez del equipo La Comarca De IS 🚀",
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2070&auto=format&fit=crop",
+    "time": "Hace 1 minuto",
+    "tags": ["#LaComarcaIS", "#GitPractice", "#DevOps"]
   }
 ]
