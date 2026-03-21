@@ -43,5 +43,14 @@
     "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2070&auto=format&fit=crop",
     "time": "Hace 1 minuto",
     "tags": ["#Grupo7", "#GitPractice", "#DevOps"]
+  },
+  {
+    "id": 1063,
+    "username": "Tapia_Joaquin",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Joaquin",
+    "content": "¡Hola desde el Grupo 7! Soy Joaquin aprendiendo Git colaborativo 🚀",
+    "image": "https://images.unsplash.com/photo-1627399270231-7d36245355a9?q=80&w=2070&auto=format&fit=crop",
+    "time": "Hace 1 minuto",
+    "tags": ["#Grupo7", "#GitPractice", "#DevOps"]
   }
 ]
