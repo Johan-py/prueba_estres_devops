@@ -26,16 +26,7 @@
     "time": "Hace 1 minuto",
     "tags": ["#SigmaDevelopers", "#GitPractice", "#DevOps", "#Learning"]
   },
-  {
-
-  "id": 7001,
-  "username": "Alejandro_Condori",
-  "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=aacm592",
-  "content": "Completando la práctica de flujo de Git y DevOps.",
-  "image": "",
-  "time": "Hace 1 minuto",
-  "tags": ["#practica", "#git"]
-  },
+  
   {
     "id": 1061,
     "username": "Alex_Nina",
@@ -45,6 +36,7 @@
     "time": "Hace 1 minuto",
     "tags": ["#Grupo7", "#GitPractice", "#DevOps"]
   },
+  
   {
     "id": 1062,
     "username": "Patiño_Calep",
@@ -64,7 +56,7 @@
     "tags": ["#Grupo7", "#GitPractice", "#DevOps"]
   },
   {
-    "id": 1004,
+    "id": 1064,
     "username": "Gustavo_Corrales",
     "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=student1",
     "content": "Hola Soy Gustavo Corrales del grupo Prisma. Estoy aprendiendo Git colaborativo y esta es mi primera contribución 🚀",
@@ -72,5 +64,14 @@
     "time": "Hace 1 minuto",
     "tags": ["#SigmaDevelopers", "#GitPractice", "#DevOps", "#Learning", "#GitFlow", "#Practice"]
 
+  },
+  {
+  "id": 1062,
+  "username": "Alejandro_Condori",
+  "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=aacm592",
+  "content": "Completando la práctica de flujo de Git y DevOps.",
+  "image": "",
+  "time": "Hace 1 minuto",
+  "tags": ["#practica", "#git"]
   }
 ]
