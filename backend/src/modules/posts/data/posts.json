@@ -89,5 +89,15 @@
     "time": "Hace 1 minuto",
     "tags": ["#TeamCebollitas", "#GitPractice", "#DevOps", "#Learning"]
   }
+,
+  {
+  "id": 1030,
+  "username": "BitPro_Rodrigo110620",
+  "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=rodrigo1030",
+  "content": "Hola, soy Rodrigo figueroa camacho del Grupo BitPro. Estoy aprendiendo Git colaborativo",
+  "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f",
+  "time": "Hace 1 minuto",
+  "tags": ["#BitPro", "#GitPractice", "#DevOps", "#Learning"]
+  }
 
 ]
