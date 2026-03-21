@@ -44,4 +44,14 @@
     "likes": 0,
     "tags": ["#git", "#desarrollo", "#bytemafia"]
   }
+   ,
+  {
+    "id": 1016,
+    "username": "Miguel Angel Massi Geronimo",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Miguel",
+    "content": "Compartiendo mi setup de desarrollo.",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop",
+    "time": "Hace un instante",
+    "tags": ["#setup", "#bytemafia", "#bytemafia"]
+  }
 ]
